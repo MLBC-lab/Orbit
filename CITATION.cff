@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the ORBIT benchmark paper and this repository."
+title: "ORBIT: Objective Robustness Benchmark for Inversion of Transcriptomes"
+version: "0.1.0"
+date-released: "2026-05-24"
+repository-code: "https://github.com/MLBC-lab/Orbit"
+license: "MIT"
+authors:
+  - family-names: "Spadaro"
+    given-names: "Austin"
+  - family-names: "Sharma"
+    given-names: "Alok"
+  - family-names: "Dehzangi"
+    given-names: "Iman"
+keywords:
+  - "Connectivity Map"
+  - "LINCS L1000"
+  - "disease signature reversal"
+  - "rank stability"
+  - "stress confounding"
+

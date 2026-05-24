@@ -1,0 +1,17 @@
+top_n: 50
+top_k: [10, 25, 50]
+program_k: 12
+quality_thresholds:
+  moderate: 0.2
+  stringent: 0.5
+matched_contexts:
+  psoriasis: ["A375", "HA1E", "HT29"]
+  er_breast_cancer: ["MCF7", "BT20", "A375"]
+  lung_adenocarcinoma: ["A549", "HA1E", "PC3"]
+core_contexts: ["A375", "A549", "BT20", "HA1E", "HT29", "MCF7", "PC3"]
+timepoints: [6, 24]
+stress_lambda: 0.35
+stress_high_z: 1.5
+bootstrap_iterations: 80
+random_seed: 2026
+

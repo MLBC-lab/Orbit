@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORBIT stress gene sets",
+  "type": "object",
+  "required": ["set_name", "gene"],
+  "properties": {
+    "set_name": {"type": "string"},
+    "gene": {"type": "string"}
+  }
+}
+

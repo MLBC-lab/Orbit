@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORBIT perturbation signatures",
+  "type": "object",
+  "required": ["perturbagen", "cell", "time_h", "dose", "tas", "gene", "z"],
+  "properties": {
+    "perturbagen": {"type": "string"},
+    "cell": {"type": "string"},
+    "time_h": {"type": "integer"},
+    "dose": {"type": "string"},
+    "tas": {"type": "number"},
+    "gene": {"type": "string"},
+    "z": {"type": "number"}
+  }
+}
+

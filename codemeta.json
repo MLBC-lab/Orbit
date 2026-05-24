@@ -1,0 +1,45 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "ORBIT Benchmark",
+  "version": "0.1.0",
+  "description": "Reference implementation of the Objective Robustness Benchmark for Inversion of Transcriptomes.",
+  "codeRepository": "https://github.com/MLBC-lab/Orbit",
+  "programmingLanguage": "Python",
+  "license": "https://spdx.org/licenses/MIT",
+  "keywords": [
+    "Connectivity Map",
+    "LINCS",
+    "L1000",
+    "transcriptome inversion",
+    "disease signature reversal",
+    "FAIR"
+  ],
+  "runtimePlatform": "Python >=3.10",
+  "softwareRequirements": [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "pyyaml"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Austin",
+      "familyName": "Spadaro"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Alok",
+      "familyName": "Sharma"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Iman",
+      "familyName": "Dehzangi"
+    }
+  ]
+}
+

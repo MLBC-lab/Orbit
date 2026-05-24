@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ORBIT disease signatures",
+  "type": "object",
+  "required": ["disease", "cohort", "method", "gene", "effect", "p_value", "q_value"],
+  "properties": {
+    "disease": {"type": "string"},
+    "cohort": {"type": "string"},
+    "method": {"type": "string"},
+    "gene": {"type": "string"},
+    "effect": {"type": "number"},
+    "p_value": {"type": "number"},
+    "q_value": {"type": "number"}
+  }
+}
+
